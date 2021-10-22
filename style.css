@@ -1,0 +1,53 @@
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 99vh;
+    background-image: url("img/hero.jpg");
+    background-size: cover;
+  }
+
+  body {
+      background-color: black;
+      color:white;
+  }
+
+  .card-text, .card-title {
+      color: black;
+  }
+/* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /*Navbar*/
+  .navb a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;;
+  }
+  .navb a:hover {
+  font-size: 1.3em;
+  font-weight: bolder;
+  }
+
+  option, option:hover, option:checked {
+      background-color: white !important;
+
+  }
+

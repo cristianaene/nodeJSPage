@@ -4,13 +4,14 @@
         <title>Your Destination</title>
         <meta charste ="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <!--BS links-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <!--Hero section-->
         <div class="hero">
-          
             <div class="top-left navb">
                 <a href>Home</a>
                 <a href>About</a>
@@ -20,6 +21,7 @@
             <div class="centered">Centered</div>
         </div>
 
+        <!--Destionation cards-->
         <div class="container">
             <h3 class="p-3">Discover Your Next Destination</h3>
             <p>I'm baby subway tile banjo poke tumeric letterpress pinterest. Scenester vice dreamcatcher occupy seitan twee actually enamel pin DIY pickled celiac. Artisan truffaut unicorn mustache ennui fashion axe twee meggings meditation leggings 8-bit. Wayfarers stumptown fam hot chicken, keffiyeh ethical subway tile biodiesel poke intelligentsia tousled. Whatever wolf sustainable kitsch try-hard everyday carry. You probably haven't heard of them forage listicle snackwave banjo cornhole blue bottle locavore pabst marfa tbh godard artisan.</p>
@@ -80,8 +82,10 @@
                 </div>
             </div>
             <hr>
+
+            <!--Destination quizz-->
             <div class="destination">
-                <h4>Take the below quizz to discover your next travel destination</h4>
+                <h4>Find your vacation type according to your personality</h4>
                 <br>
                 <p class="col">What is your favorite season?</p>
                 <select>
@@ -99,9 +103,31 @@
                     <option value="3">Glamping</option>
                     <option value="4">airbnb</option>
                 </select>
+                <p>Transport type:</p>
+                <select class="col">
+                    <option selected>Select transport</option>
+                    <option value="1">Car</option>
+                    <option value="2">Boat</option>
+                    <option value="3">Plane</option>
+                    <option value="4">Train</option>
+                </select>
+                <p>Your budget is:</p>
+                <select class="col">
+                    <option selected>Select budget</option>
+                    <option value="1">Low</option>
+                    <option value="2">Medium</option>
+                    <option value="3">High</option>
+                </select>
+                <br>
+                <button class="btn-light mt-4">Click to see your favorite destination</button>
+                
             </div>
         </div>
         <br>
+
+        <!--JS starts here-->
+        <script src="script.js"></script>
+
         <footer>
             <p>All rights reserved @Cristiana </p>
         </footer>

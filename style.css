@@ -43,6 +43,7 @@
     color: white;
     font-size: 1.2em;;
   }
+
   .navb a:hover {
   font-size: 1.3em;
   font-weight: bolder;
@@ -53,6 +54,7 @@
 
   }
 
+  /*Footer styling*/
   footer {
     border-top: 0.1em solid white;
     text-align: center;
@@ -61,5 +63,9 @@
 
   .row i {
     margin: 20px;
+  }
+
+  .row {
+    padding: 0.5em;
   }
 
